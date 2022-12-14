@@ -1,0 +1,82 @@
+.photos{
+    min-height:100vh;
+    display: flex;
+    justify-content: center;
+    flex-wrap:wrap;
+    width: 100%;
+    background-color: #f5f5f5;
+    padding: 20px;
+}
+
+.loading{
+    background-color: rgb(224, 255, 245);
+    padding: 20px;
+    border-radius: 10px;
+    border: 2px solid #70f1ff;
+    
+}
+
+.error{
+    background-color: rgb(255, 223, 223);
+    padding: 20px;
+    border-radius: 10px;
+    border: 2px solid #ff7070;
+}
+
+.photo code {
+    padding: 0.5rem 1rem ;
+    font-size: 1rem;
+    border-radius: 0.5rem;
+    background: #ffffff ;
+    color: rgb(255, 160, 7);
+    border: 1px solid #ffa348 ;
+}
+
+.photo{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 500px;
+    border-radius: 10px;
+    padding: 30px;
+    gap:20px;
+    position:relative;
+    box-shadow: 0px 2px 4px rgb(0,0,0,0.1);
+    background:white;
+    margin: 10px;
+}
+
+
+.photo a{
+    text-decoration: none;
+    background: #333;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    transition: 0.3s ease all;
+    width:140px ;
+    text-align: center;
+}
+
+.photo a:hover{
+    background: transparent;
+    outline: 2px solid #444;
+    color:#333;
+}
+
+.photo span{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 0.8rem;
+    color: #999;
+}
+
+.photo img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}

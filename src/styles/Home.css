@@ -1,0 +1,28 @@
+.home{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.home a{
+    text-decoration: none;
+    background: #333;
+    color: #fff;
+    padding: 0.5rem 2rem;
+    border: none;
+    font-size:3rem;
+    border-radius: 0.5rem;
+}
+
+.home a:hover{
+    background:transparent;
+    color: rgb(47, 47, 47);
+    outline: 2px solid #333;
+    transition: 0.3s ease all;
+}
+
+.home h1{
+    font-size:5rem;
+}

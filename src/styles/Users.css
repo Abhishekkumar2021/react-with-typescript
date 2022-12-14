@@ -1,0 +1,70 @@
+.Users{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    background-color: #f5f5f5;
+    padding: 0 20px;
+    gap:20px;
+    padding: 30px;
+}
+
+.loading{
+    background-color: rgb(224, 255, 245);
+    padding: 20px;
+    border-radius: 10px;
+    border: 2px solid #70f1ff;
+    
+}
+
+.error{
+    background-color: rgb(255, 223, 223);
+    padding: 20px;
+    border-radius: 10px;
+    border: 2px solid #ff7070;
+}
+
+.user code {
+    background: #f9fcff;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    border: 1px solid #e5e5e5;
+}
+
+.user{
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    border-radius: 10px;
+    padding: 30px;
+    background-color: #fff;
+    box-shadow: 0px 2px 4px rgb(0,0,0,0.1);
+    transition: 0.3s ease all;
+    gap:20px;
+}
+
+.user a{
+    text-decoration: none;
+    background: #333;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 0.5rem;
+    margin-top: 1rem;
+    cursor: pointer;
+    transition: 0.3s ease all;
+    width:130px;
+    text-align: center;
+}
+
+.user a:hover{
+    background: transparent;
+    outline: 2px solid #444;
+    color:#333;
+}
+
+.buttons{
+    width:100%;
+    display: flex;
+    justify-content: flex-start;
+}
